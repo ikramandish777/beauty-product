@@ -1,8 +1,22 @@
 import React from 'react';
+import { FaFacebook, FaPinterest } from 'react-icons/fa6';
+import { IoLogoWhatsapp } from 'react-icons/io';
+import { RiInstagramFill } from 'react-icons/ri';
 
 export default function Footer1() {
   return (
     <section className="bg-gradient-to-r from-[#A0ADCD] to-[#D4DCF0] mt-20">
+        <div className='flex w-full px-10 justify-between items-center pt-8'>
+     <div><img src="/Beautify.png" alt="" /></div>
+      <div className='flex gap-5'><h1 className='text-[#111633] text-2xl font-medium'>Follow us</h1>
+    <ul className='flex gap-3 items-center'>
+        <li><FaFacebook  className='w-9 h-9'/></li>
+        <li><FaPinterest className='w-9 h-9'/></li>
+        <li><IoLogoWhatsapp className='w-9 h-9'/></li>
+        <li><RiInstagramFill className='w-9 h-9'/></li>
+    </ul>
+    </div>
+       </div>
       <div className="py-10 px-5 lg:px-10">
         <div className="grid gap-10 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
         
@@ -29,7 +43,7 @@ export default function Footer1() {
 
         
           <div className="text-center md:col-span-2 lg:col-auto  flex  flex-col justify-center items-center">
-            <h1 className="font-bold text-xl lg:text-4xl text-[#111633] leading-8">Recent News</h1>
+            <h1 className="font-bold text-xl lg:text-4xl text-[#111633] leading-8 mr-6">Recent News</h1>
             <div className="flex gap-3 mt-5  items-center ">
               <img src="/Footer-image.png" alt="" className="w-[80px] h-[50px]" />
               <div>

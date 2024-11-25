@@ -2,7 +2,7 @@ export default function SpecialOffer() {
     return (
    
     <section
-  className="relative bg-cover bg-center h-[400px] md:h-[500px] text-[#111633] flex flex-col justify-between p-6 "
+  className="relative w-full bg-cover bg-center h-[400px] md:h-[500px] text-[#111633] flex flex-col justify-between p-6 "
   style={{ backgroundImage: "url('/DiscountImage.png')" }}
 >
 
