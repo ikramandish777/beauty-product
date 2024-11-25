@@ -1,7 +1,6 @@
 import About from '@/components/About'
 import AntingCream from '@/components/AntingCream'
 import FeatureProducts from '@/components/FeatureProducts'
-import Footer from '@/components/Footer'
 import Footer1 from '@/components/Footer1'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'

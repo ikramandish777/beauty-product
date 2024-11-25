@@ -1,7 +1,4 @@
 import React from 'react';
-import { FaFacebook, FaPinterest } from 'react-icons/fa';
-import { IoLogoWhatsapp } from 'react-icons/io';
-import { RiInstagramFill } from 'react-icons/ri';
 
 export default function Footer1() {
   return (
